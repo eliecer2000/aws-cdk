@@ -317,6 +317,8 @@
     "docs-public-apis:aws-cdk-lib.aws_codepipeline_actions.JenkinsProvider.serverUrl",
     "docs-public-apis:aws-cdk-lib.aws_codepipeline_actions.ManualApprovalAction.notificationTopic",
     "docs-public-apis:aws-cdk-lib.aws_dynamodb.Billing.mode",
+    "docs-public-apis:aws-cdk-lib.pipelines.CodePipeline.multiAssetsEnabled",
+    "docs-public-apis:aws-cdk-lib.pipelines.CodePipelineProps.multiAssets",
     "docs-public-apis:aws-cdk-lib.aws_dynamodb.Capacity.mode",
     "docs-public-apis:aws-cdk-lib.aws_dynamodb.TableBase",
     "docs-public-apis:aws-cdk-lib.aws_dynamodb.TableEncryptionV2.type",
