@@ -559,7 +559,7 @@ export class CodePipeline extends PipelineBase {
               // @ts-ignore
               (item: AGraphNode) => item?.data?.assets || [],
             );
-            const factory = this.publishAssetsAction({ id: 'multi-asset' } as AGraphNode, assets);
+            const factory = this.publishAssetsAction({ id: `multi-assets-${stageName}` } as AGraphNode, assets);
 
             const nodeType = this.nodeTypeFromNode(node);
             const name = actionName(node, sharedParent);
